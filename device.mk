@@ -30,14 +30,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Product characteristics
 PRODUCT_CHARACTERISTICS := phone
 
-# Rootdir
-PRODUCT_PACKAGES += \
-    hdm_status.sh \
-    init.insmod.sh \
-    install-recovery.sh \
+
 
 PRODUCT_PACKAGES += \
-    fstab.enableswap \
     factory_init.connectivity.common.rc \
     factory_init.connectivity.rc \
     factory_init.project.rc \
@@ -64,8 +59,6 @@ PRODUCT_PACKAGES += \
     init.recovery.mt6877.rc \
     init.recovery.samsung.rc \
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.enableswap:$(TARGET_COPY_OUT_RAMDISK)/fstab.enableswap
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
