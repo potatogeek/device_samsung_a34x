@@ -1097,10 +1097,6 @@ vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
 
 # Display
 system_ext/lib/vendor.mediatek.hardware.mms@1.0.so
@@ -1997,7 +1993,6 @@ vendor/etc/fstab.ramplus
 vendor/etc/fstb.cfg
 vendor/etc/gbe.cfg
 vendor/etc/hqm_device.xml
-vendor/etc/linker.config.pb
 vendor/etc/mercury.json
 vendor/etc/mkshrc
 vendor/etc/mtk_omx_core.cfg
