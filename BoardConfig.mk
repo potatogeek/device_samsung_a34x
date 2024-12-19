@@ -99,6 +99,9 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/compatibility_matrix.xml  \
+    hardware/samsung/vintf/samsung_framework_compatibility_matrix.xml \
+    vendor/lineage/config/device_framework_matrix.xml \
+    hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml
 
 # Partitions (Dynamic)
 BOARD_SUPER_PARTITION_GROUPS := mediatek_dynamic_partitions
