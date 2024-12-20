@@ -1,4 +1,80 @@
-<compatibility-matrix version="5.0" type="framework">
+<compatibility-matrix version="6.0" type="framework">
+<hal format="aidl" optional="true">
+    <name>android.hardware.biometrics.face</name>
+    <interface>
+        <name>IFace</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.power</name>
+    <interface>
+        <name>IPower</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.security.keymint</name>
+    <interface>
+        <name>IKeyMintDevice</name>
+        <instance>default</instance>
+    </interface>
+    <interface>
+        <name>IRemotelyProvisionedComponent</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.vibrator</name>
+    <interface>
+        <name>IVibrator</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.hostapd</name>
+    <interface>
+        <name>IHostapd</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.supplicant</name>
+    <interface>
+        <name>ISupplicant</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>vendor.samsung.hardware.hyper</name>
+    <interface>
+        <name>ISehHyPer</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>vendor.samsung.hardware.security.hdcp.wifidisplay</name>
+    <interface>
+        <name>ISehHdcp</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.samsung.hardware.security.skpm</name>
+    <version>1.0</version>
+    <interface>
+        <name>ISehSkpm</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>vendor.samsung.hardware.snap</name>
+    <interface>
+        <name>ISehSnap</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
 <hal format="hidl" optional="true">
     <name>android.hardware.audio.effect</name>
     <version>7.0</version>
